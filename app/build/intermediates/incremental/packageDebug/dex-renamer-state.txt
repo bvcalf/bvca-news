@@ -1,0 +1,7 @@
+#Thu Apr 13 14:03:21 CST 2017
+base.0=C\:\\Projects\\jtm-techfrontier-app-1.0\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_a49db8ad03e7948496d1b52a28e77f26e7fbf2da
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Projects\\jtm-techfrontier-app-1.0\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_adf0e7e01c6a5a368460e24fc89261bde79245ce\\classes.dex
+base.1=C\:\\Projects\\jtm-techfrontier-app-1.0\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_adf0e7e01c6a5a368460e24fc89261bde79245ce
+file.0=C\:\\Projects\\jtm-techfrontier-app-1.0\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_a49db8ad03e7948496d1b52a28e77f26e7fbf2da\\classes.dex

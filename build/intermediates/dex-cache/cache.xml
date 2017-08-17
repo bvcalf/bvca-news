@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Projects\jtm-techfrontier-app-1.0\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Projects\jtm-techfrontier-app-1.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_f35baf254876e10316528a3da4c168f7d8ee455e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projects\jtm-techfrontier-app-1.0\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Projects\jtm-techfrontier-app-1.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_94b34a1ee6d4e8bd0d343f69df6d1024cf4d44f3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projects\jtm-techfrontier-app-1.0\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Projects\jtm-techfrontier-app-1.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_fb1a014cde4b45d16d7f22fdde95ad6014c231c6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projects\jtm-techfrontier-app-1.0\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Projects\jtm-techfrontier-app-1.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_1a343e5005250df564f0fc82038d28e20e852cb0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projects\jtm-techfrontier-app-1.0\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Projects\jtm-techfrontier-app-1.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_0fda879a515dda449372bae2f751828109373c54\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projects\jtm-techfrontier-app-1.0\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Projects\jtm-techfrontier-app-1.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_a39c1c6aef2dac6c3a8162e86aa80c644331f4f3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\www\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.0\c4ba5371a29ac9b2ad6129b1d39ea38750043eff\gson-2.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
+        <dex dex="C:\Projects\jtm-techfrontier-app-1.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.8.0_3f9dab3e0c30950335a99292e04fd341f3e71bde\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projects\jtm-techfrontier-app-1.0\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Projects\jtm-techfrontier-app-1.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_32756a4c06db472b56e0d6760d45970363dc6dfe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projects\jtm-techfrontier-app-1.0\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Projects\jtm-techfrontier-app-1.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_4733f70bc763cee7eb9744d3685bb13586ca0810\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projects\jtm-techfrontier-app-1.0\app\libs\volley.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b81c6be00d9f497f68cb501a08085ea4a76f50f3">
+        <dex dex="C:\Projects\jtm-techfrontier-app-1.0\app\build\intermediates\transforms\dex\debug\folders\1000\2\volley_216cde1ca70787eb12f02fdd1566646e8cf70af2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projects\jtm-techfrontier-app-1.0\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Projects\jtm-techfrontier-app-1.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_01634fd9afb457b426670dc4a7988e19a9f03ee1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Projects\jtm-techfrontier-app-1.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_10cd953c940accdea77ebb67004f63b8f836c70e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projects\jtm-techfrontier-app-1.0\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Projects\jtm-techfrontier-app-1.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_6f403db74404a2194b516b90a40d5d3b0529f63a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projects\jtm-techfrontier-app-1.0\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="C:\Projects\jtm-techfrontier-app-1.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.1_46e8eaea1481f2bc83bd8ddac48cce46f032fd6a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projects\jtm-techfrontier-app-1.0\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="C:\Projects\jtm-techfrontier-app-1.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.1_d41f2b5bb610da64da48d8f6e1a2e3d8a5692ef2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projects\jtm-techfrontier-app-1.0\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Projects\jtm-techfrontier-app-1.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_7460f4362d76a09231d234e01af5a0fe7a3cccf1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projects\jtm-techfrontier-app-1.0\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Projects\jtm-techfrontier-app-1.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_2541a77d4472d8d84d3c3c2f356f4c01bc887df3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projects\jtm-techfrontier-app-1.0\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Projects\jtm-techfrontier-app-1.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_495fcd59fd05b9d3f882abf92101d6dc79deca79\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projects\jtm-techfrontier-app-1.0\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Projects\jtm-techfrontier-app-1.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_1d6e1ddfb7e4c41eae3412cf8849d480c6db82eb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projects\jtm-techfrontier-app-1.0\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5723ec23f204d28dfcf2feb5cf4a6a1cdee7e2c5">
+        <dex dex="C:\Projects\jtm-techfrontier-app-1.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_adf0e7e01c6a5a368460e24fc89261bde79245ce\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Projects\jtm-techfrontier-app-1.0\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="719cd709412815979887a55583f0d05437554d12">
+        <dex dex="C:\Projects\jtm-techfrontier-app-1.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_a49db8ad03e7948496d1b52a28e77f26e7fbf2da\classes.dex" />
+    </item>
+
+</items>
