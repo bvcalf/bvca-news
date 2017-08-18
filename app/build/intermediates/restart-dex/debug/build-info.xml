@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    api-level="24"
-    density="xxhdpi"
+    api-level="21"
+    density="xhdpi"
     format="8"
     plugin-version="2.2.0"
-    timestamp="103955637420961"
-    token="1644640818484783566"
+    timestamp="237001443354613"
+    token="-382296818623599142"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="734" />
+        duration="1623" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="693" />
+        duration="2146" />
     <task
         name="verifier"
-        duration="215" />
+        duration="428" />
 
     <artifact
-        location="C:\Projects\jtm-techfrontier-app-1.0\app\build\outputs\apk\app-debug.apk"
+        location="C:\Projects\bvca-news\app\build\outputs\apk\app-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="103955637420961"
+        timestamp="237001443354613"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Projects\jtm-techfrontier-app-1.0\app\build\outputs\apk\app-debug.apk"
+            location="C:\Projects\bvca-news\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
 

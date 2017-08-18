@@ -561,17 +561,26 @@
     <string name="cancel">取消</string>
     <string name="cancel_fav">取消收藏</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
+    <string name="dqgz">党群工作</string>
     <string name="drawer_close">关闭</string>
     <string name="drawer_open">打开</string>
     <string name="exit">退出</string>
     <string name="favorite">收藏</string>
     <string name="ios">iOS</string>
     <string name="is_logout">注销登录?</string>
+    <string name="jlhz">交流合作</string>
     <string name="jobs">招聘信息</string>
+    <string name="jxjg">教学教改</string>
+    <string name="kyfw">科研服务</string>
     <string name="not_login">未登录</string>
+    <string name="search">搜索</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="sure">确定</string>
+    <string name="szjy">素质教育</string>
+    <string name="tzgg">通知公告</string>
+    <string name="xsgz">学生工作</string>
+    <string name="zhyw">综合要闻</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
@@ -1899,6 +1908,13 @@
     <style name="ThemeOverlay.AppCompat.Dialog" parent="Base.ThemeOverlay.AppCompat.Dialog"/>
     <style name="ThemeOverlay.AppCompat.Dialog.Alert" parent="Base.ThemeOverlay.AppCompat.Dialog.Alert"/>
     <style name="ThemeOverlay.AppCompat.Light" parent="Base.ThemeOverlay.AppCompat.Light"/>
+    <style name="Toolbar.MyStyle" parent="Base.Widget.AppCompat.Toolbar">
+        <item name="contentInsetStart">0dp</item>
+        <item name="contentInsetStartWithNavigation">0dp</item>
+    </style>
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">15sp</item>
+    </style>
     <style name="Widget.AppCompat.ActionBar" parent="Base.Widget.AppCompat.ActionBar">
     </style>
     <style name="Widget.AppCompat.ActionBar.Solid" parent="Base.Widget.AppCompat.ActionBar.Solid">

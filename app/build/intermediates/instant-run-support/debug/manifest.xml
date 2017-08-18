@@ -32,6 +32,10 @@
             </intent-filter>
         </activity>
         <activity
+            android:name="com.bvcalf.demo.search"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
             android:name="com.bvcalf.demo.NeirongActivity"
             android:configChanges="keyboardHidden|orientation"
             android:launchMode="singleTask"

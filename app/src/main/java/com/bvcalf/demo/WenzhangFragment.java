@@ -55,6 +55,8 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.net.URLDecoder;
+import java.net.URLEncoder;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -91,8 +93,8 @@ public class WenzhangFragment extends Fragment implements OnRefreshListener,
     @Override
     public void onResume() {
         super.onResume();
-        mDataSet.addAll(DatabaseHelper.getInstance().loadArticles());
-        mAdapter.notifyDataSetChanged();
+//        mDataSet.addAll(DatabaseHelper.getInstance().loadArticles());
+//        mAdapter.notifyDataSetChanged();
     }
 
     protected void initRefreshView(View rootView) {
@@ -150,7 +152,7 @@ public class WenzhangFragment extends Fragment implements OnRefreshListener,
                 mAdapter.notifyDataSetChanged();
                 mSwipeRefreshLayout.setRefreshing(false);
                 // 存储文章列表
-                DatabaseHelper.getInstance().saveArticles(result);
+                //DatabaseHelper.getInstance().saveArticles(result);
                 if (result.size() > 0) {
                     mPageIndex++;
                 }
@@ -162,10 +164,11 @@ public class WenzhangFragment extends Fragment implements OnRefreshListener,
     private List<News> performRequest(int page) {
         HttpURLConnection urlConnection = null;
         try {
-            //String getUrl =
-            //        "http://www.devtf.cn/api/v1/?type=articles&page=" + mPageIndex
-            //               + "&count=20&category=1";
-            String getUrl = "http://123.207.162.74:8080/api/list.do?page="+mPageIndex;
+            String getUrl = "http://114.215.91.47:8080/list.php?page="+mPageIndex;
+            //String getUrl = "http://114.215.91.47:8080/q?q=0";
+            //String getUrl = "http://114.215.91.47:8080/q?q=java";
+            //String s ="锋";
+            //String getUrl = "http://114.215.91.47:8080/q.php?q="+ URLEncoder.encode(s,"UTF-8");//URLEncoder.decode(s,"UTF-8");
             urlConnection = (HttpURLConnection) new URL(getUrl)
                     .openConnection();
             urlConnection.connect();
@@ -229,12 +232,12 @@ public class WenzhangFragment extends Fragment implements OnRefreshListener,
         startActivity(intent);
     }
     //TODO 需要测试此方法
-    public void loadNews(News news){
-        Intent intent = new Intent(getActivity(), NeirongActivity.class);
-        intent.putExtra("post_id", news.getId());
-        intent.putExtra("title", news.getName());
-        startActivity(intent);
-    }
+//    public void loadNews(News news){
+//        Intent intent = new Intent(getActivity(), NeirongActivity.class);
+//        intent.putExtra("post_id", news.getId());
+//        intent.putExtra("title", news.getName());
+//        startActivity(intent);
+//    }
     @Override
     public void onRefresh() {
         getArticles(1);

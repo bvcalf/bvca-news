@@ -18,5 +18,13 @@
     <string name="is_logout">注销登录?</string>
     <string name="sure">确定</string>
     <string name="cancel">取消</string>
-
+    <string name="kyfw">科研服务</string>
+    <string name="zhyw">综合要闻</string>
+    <string name="jxjg">教学教改</string>
+    <string name="dqgz">党群工作</string>
+    <string name="xsgz">学生工作</string>
+    <string name="tzgg">通知公告</string>
+    <string name="szjy">素质教育</string>
+    <string name="jlhz">交流合作</string>
+    <string name="search">搜索</string>
 </resources>

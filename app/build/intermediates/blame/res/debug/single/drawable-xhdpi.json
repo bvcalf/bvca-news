@@ -1,38 +1,14 @@
 [
     {
-        "merged": "C:\\Projects\\bvca-news-1.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ab_share.png",
-        "source": "C:\\Projects\\bvca-news-1.0\\app\\src\\main\\res\\drawable-xhdpi\\ab_share.png"
-    },
-    {
         "merged": "C:\\Projects\\bvca-news\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ab_share.png",
         "source": "C:\\Projects\\bvca-news\\app\\src\\main\\res\\drawable-xhdpi\\ab_share.png"
-    },
-    {
-        "merged": "C:\\Projects\\jtm-techfrontier-app-1.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\user_bg.png",
-        "source": "C:\\Projects\\jtm-techfrontier-app-1.0\\app\\src\\main\\res\\drawable-xhdpi\\user_bg.png"
-    },
-    {
-        "merged": "C:\\Projects\\jtm-techfrontier-app-1.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ab_share.png",
-        "source": "C:\\Projects\\jtm-techfrontier-app-1.0\\app\\src\\main\\res\\drawable-xhdpi\\ab_share.png"
     },
     {
         "merged": "C:\\Projects\\bvca-news\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\user_default.png",
         "source": "C:\\Projects\\bvca-news\\app\\src\\main\\res\\drawable-xhdpi\\user_default.png"
     },
     {
-        "merged": "C:\\Projects\\jtm-techfrontier-app-1.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\user_default.png",
-        "source": "C:\\Projects\\jtm-techfrontier-app-1.0\\app\\src\\main\\res\\drawable-xhdpi\\user_default.png"
-    },
-    {
-        "merged": "C:\\Projects\\bvca-news-1.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\user_bg.png",
-        "source": "C:\\Projects\\bvca-news-1.0\\app\\src\\main\\res\\drawable-xhdpi\\user_bg.png"
-    },
-    {
         "merged": "C:\\Projects\\bvca-news\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\user_bg.png",
         "source": "C:\\Projects\\bvca-news\\app\\src\\main\\res\\drawable-xhdpi\\user_bg.png"
-    },
-    {
-        "merged": "C:\\Projects\\bvca-news-1.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\user_default.png",
-        "source": "C:\\Projects\\bvca-news-1.0\\app\\src\\main\\res\\drawable-xhdpi\\user_default.png"
     }
 ]

@@ -2,13 +2,5 @@
     {
         "merged": "C:\\Projects\\bvca-news\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
         "source": "C:\\Projects\\bvca-news\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Projects\\bvca-news-1.0\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
-        "source": "C:\\Projects\\bvca-news-1.0\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Projects\\jtm-techfrontier-app-1.0\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
-        "source": "C:\\Projects\\jtm-techfrontier-app-1.0\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     }
 ]

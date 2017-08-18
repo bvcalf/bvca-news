@@ -133,7 +133,7 @@ public class NeirongActivity extends ActionBarActivity {
                 HttpURLConnection urlConnection = null;
                 try {
                     urlConnection = (HttpURLConnection) new URL(
-                            "http://123.207.162.74:8080/api/content.do?id=" + mPostId)
+                            "http://114.215.91.47:8080/content.do?id=" + mPostId)
                             .openConnection();
                     urlConnection.connect();
                     StringBuilder sBuilder = new StringBuilder();
