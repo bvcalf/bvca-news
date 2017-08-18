@@ -1,7 +1,0 @@
-#Fri Aug 18 11:21:00 CST 2017
-base.0=C\:\\Projects\\bvca-news\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_d59b0df86e01ede5e35b02ec30d8c41dcdb35b5a
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=C\:\\Projects\\bvca-news\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_815945d15c4efd88cdf473004181777b50c6273f\\classes.dex
-base.1=C\:\\Projects\\bvca-news\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_815945d15c4efd88cdf473004181777b50c6273f
-file.0=C\:\\Projects\\bvca-news\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_d59b0df86e01ede5e35b02ec30d8c41dcdb35b5a\\classes.dex
