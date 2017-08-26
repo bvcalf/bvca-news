@@ -34,6 +34,8 @@ import com.bvcalf.demo.beans.NewsVo;
 import com.bvcalf.listeners.OnItemClickListener;
 import com.bvcalf.widgets.AutoLoadRecyclerView;
 import com.google.gson.Gson;
+import com.zhy.http.okhttp.OkHttpUtils;
+import com.zhy.http.okhttp.callback.StringCallback;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -54,6 +56,9 @@ import java.util.Date;
 import java.util.LinkedList;
 import java.util.List;
 
+import okhttp3.Call;
+import okhttp3.Request;
+
 /**
  * Created by 李子宣 on 2017/8/5.
  */
@@ -71,7 +76,7 @@ public class search extends AppCompatActivity implements AutoLoadRecyclerView.On
     final protected List<News> mDataSet = new ArrayList<News>();
     //private int mPageIndex = 1;
     //int a=0;
-
+    List<News> newsList=null;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -140,12 +145,15 @@ public class search extends AppCompatActivity implements AutoLoadRecyclerView.On
             public boolean onQueryTextSubmit(String s) {
 //--------------------------------------------------------------------------------------
                 //这里提交
-                try {
-                    str= URLDecoder.decode(s,"utf-8");
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
-                getArticles(str);
+//                try {
+//                    str= URLDecoder.decode(s,"utf-8");
+//                } catch (Exception e) {
+//                    e.printStackTrace();
+//                }
+                //Toast.makeText(search.this,"1",Toast.LENGTH_LONG).show();
+                getArticles(s);
+                //mDataSet.removeAll(mDataSet);
+                //Toast.makeText(search.this,"2",Toast.LENGTH_LONG).show();
                 return true;
 //--------------------------------------------------------------------------------------
             }
@@ -156,34 +164,80 @@ public class search extends AppCompatActivity implements AutoLoadRecyclerView.On
         });
         return super.onCreateOptionsMenu(menu);
     }
-    private void getArticles(final String str) {
-        new AsyncTask<Void, Void, List<News>>() {
-            protected void onPreExecute() {
-                Toast.makeText(search.this,"1111",Toast.LENGTH_SHORT).show();
-            };
-            /*@Override
-            protected List<Article> doInBackground(Void... params) {
-                return performRequest(page);
-            }*/
-            @Override
-            protected List<News> doInBackground(Void... params) {
-                return performRequest(str);
-            }
-            protected void onPostExecute(List<News> result) {
-//----------------------------------------------------------------------------------
-                // 移除已经更新的数据
-                result.removeAll(mDataSet);
-                // 添加心数据
-                mDataSet.addAll(result);
-                mAdapter.notifyDataSetChanged();
-                // 存储文章列表
-//                DatabaseHelper.getInstance().saveArticles(result);
-//                if (result.size() > 0) {
-//                    mPageIndex++;
-//                }
-//----------------------------------------------------------------------------------
-            };
-        }.execute();
+    private void getArticles( String str)  {
+        try {
+            str= URLEncoder.encode(str,"UTF-8");
+            String getUrl = "http://114.215.91.47:8080/q?q="+str;
+            OkHttpUtils
+                    .get()
+                    .url(getUrl)
+                    .build()
+                    .execute(new StringCallback()
+                    {
+                        @Override
+                        public void onBefore(Request request, int id)
+                        {
+                            //setTitle("loading...");
+                        }
+
+                        @Override
+                        public void onAfter(int id)
+                        {
+                            //setTitle("Sample-okHttp");
+                        }
+
+                        @Override
+                        public void onError(Call call, Exception e, int id)
+                        {
+                            e.printStackTrace();
+                        }
+
+
+                        @Override
+                        public void onResponse(String response,int  id)
+                        {
+                            //Toast.makeText(search.this,"id:"+id,Toast.LENGTH_LONG).show();
+                            //Toast.makeText(search.this,"response:"+response,Toast.LENGTH_LONG).show();
+                            if(newsList != null)
+                                newsList.removeAll(newsList);
+                            if(mDataSet != null)
+                                mDataSet.removeAll(mDataSet);
+                            newsList = parseNews(response);
+                            // 移除已经更新的数据
+                            newsList.removeAll(mDataSet);
+                            // 添加心数据
+                            mDataSet.addAll(newsList);
+                            mAdapter.notifyDataSetChanged();
+                        }
+                    });
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+
+//        new AsyncTask<Void, Void, List<News>>() {
+//            protected void onPreExecute() {
+//                Toast.makeText(search.this,"1111",Toast.LENGTH_SHORT).show();
+//            };
+//
+//            @Override
+//            protected List<News> doInBackground(Void... params) {
+//                return performRequest(str);
+//            }
+//            protected void onPostExecute(List<News> result) {
+////----------------------------------------------------------------------------------
+//                // 移除已经更新的数据
+//                result.removeAll(mDataSet);
+//                // 添加心数据
+//                mDataSet.addAll(result);
+//                mAdapter.notifyDataSetChanged();
+//                // 存储文章列表
+////                DatabaseHelper.getInstance().saveArticles(result);
+////                if (result.size() > 0) {
+////                    mPageIndex++;
+////                }
+////----------------------------------------------------------------------------------
+//            };
+//        }.execute();
     }
     //s
     private List<News> performRequest(String s) {
@@ -204,7 +258,7 @@ public class search extends AppCompatActivity implements AutoLoadRecyclerView.On
                 sBuilder.append(line).append("\n");
             }
             String result = sBuilder.toString();
-            Toast.makeText(search.this,"返回搜索结果:"+s,Toast.LENGTH_SHORT).show();
+            //Toast.makeText(search.this,"返回搜索结果:"+s,Toast.LENGTH_SHORT).show();
             Log.i("Search","----------------------------------------------------------开始搜索:"+s);
             return parseNews(result);
             //return parse(new JSONArray(result));
